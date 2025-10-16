@@ -4,7 +4,7 @@ from art import *
 
 #print logo and greet user
 print(logo)
-print("Welcome to everyone's favourite game: 'ROSHAMBO!' or if you're uncultures 'Rock-Paper-Scissors'. ")
+print("Welcome to everyone's favourite game: 'ROSHAMBO!' or if you're uncultured 'Rock-Paper-Scissors'. ")
 
 #import art from art.py and add them to a list
 art_list = [rock, paper, scissors]
@@ -33,4 +33,5 @@ elif user_choice == pc_choice:
 #if not, then it means we lost.
 else:
     print("You lose!")
+
 
